@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+ <html lang="ja">
+ <head>
+  <!-- META-->
+  <meta charset="utf-8">
+  <meta name="robots" content="index,follow" />
+  <title>Hana's Cafe</title>
+  <meta name="description" content="説明文" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="画像のパス/apple-touch-icon-precomposed.png">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!--material icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/cafe.css">
+
+  <!-- Canonicalize -->
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="スマホ専用ページのURL" />
+  <link rel="canonical" href="PC専用ページのURL" />
+  <link rel="canonical" href="重複ページの元となるページのURL" />
+
+  <!-- OGP -->
+  <meta property="og:site_name" content="サイト名" />
+  <meta property="og:url" content="ページURL" />
+  <meta property="og:type" content="ページタイプ" /> 
+  <meta property="og:title" content="ページタイトル" />
+  <meta property="og:description" content="ページ説明文"/>
+  <meta property="og:image" content="サムネイル画像URL" />
+  <meta property="fb:app_id" content="appIdを入力" />
+  <meta property="og:locale" content="ja_JP" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="カードの種類" />
+  <meta name="twitter:site" content="@ユーザー名" />
+  <meta name="twitter:description" content="ページ説明文" />
+  <meta name="twitter:image:src" content="サムネイル画像URL" />
+
+</head>
+<body>
+  <header id="header" class="header">
+    <nav class="navi">
+     <ul class="navi__list">
+      <li class="navi__item"><a class="navi__link -active" href="#menu">MENU</a></li>
+      <li class="navi__item"><a class="navi__link" href="#about">ABOUT</a></li>
+      <li class="navi__item"><a class="navi__link" href="#location">LOCATION</a></li>
+    </ul>
+  </nav>
+  <div class="mv">      
+    <h1 class="site__ttl">
+      <picture>
+       <source media="(max-width: 768px)" srcset="images/HanaCafe_sp.png">
+        <img src="images/HanaCafe_pc.png" alt="Hana's Cafe">
+      </picture>      
+    </h1>
+  </div>
+</header>
+<main id="main">
+  <section id="menu" class="menu">
+    <div class="fixed__bg --menu">
+      <h2 class="sec__ttl --menu"><img src="images/menu_ttl.png" alt="menu"></h2>
+    </div>
+    <div class="menu__contents contents__inner">
+      <div class="menu__category">
+        <div class="category-01">
+          <h3 class="menu-category__ttl"><span class="underline">Coffee</span></h3>
+          <ul class="menu__lists">
+            <li class="menu__list"><span class="menu-name">ブレンドコーヒー</span><span class="menu-price">480円</span></li>
+            <li class="menu__list"><span class="menu-name">アイスコーヒー</span><span class="menu-price">500円</span></li>
+            <li class="menu__list"><span class="menu-name">カフェラテ</span><span class="menu-price">620円</span></li>
+            <li class="menu__list"><span class="menu-name">アイスカフェラテ</span><span class="menu-price">650円</span></li>
+            <li class="menu__list"><span class="menu-name">カプチーノ</span><span class="menu-price">400円</span></li>
+            <li class="menu__list"><span class="menu-name">カフェモカ</span><span class="menu-price">520円</span></li>
+            <li class="menu__list"><span class="menu-name">アイスカフェモカ</span><span class="menu-price">520円</span></li>
+            <li class="menu__list"><span class="menu-name">エスプレッソ（シングル）</span><span class="menu-price">580円</span></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="menu__category">
+        <div class="category-02">
+          <h3 class="menu-category__ttl"><span class="underline">Tea & Others</span></h3>
+          <ul class="menu__lists">
+            <li class="menu__list"><span class="menu-name">アールグレイティー</span><span class="menu-price">550円</span></li>
+            <li class="menu__list"><span class="menu-name">ダージリンティー</span><span class="menu-price">550円</span></li>
+            <li class="menu__list"><span class="menu-name">ローズヒップティー</span><span class="menu-price">580円</span></li>
+            <li class="menu__list"><span class="menu-name">カモミールティー</span><span class="menu-price">550円</span></li>
+            <li class="menu__list"><span class="menu-name">ホットチョコレート</span><span class="menu-price">580円</span></li>
+          </ul>
+        </div>
+        <div class="category-03">
+          <h3 class="menu-category__ttl"><span class="underline">Food</span></h3>
+          <ul class="menu__lists">
+            <li class="menu__list"><span class="menu-name">自家製サンドウィッチ</span><span class="menu-price">480円</span></li>
+            <li class="menu__list"><span class="menu-name">自家製ピザ</span><span class="menu-price">600円</span></li>
+            <li class="menu__list"><span class="menu-name">ソフトクリーム</span><span class="menu-price">620円</span></li>
+            <li class="menu__list"><span class="menu-name">トースト</span><span class="menu-price">400円</span></li>
+            <li class="menu__list"><span class="menu-name">自家製ケーキ</span><span class="menu-price">520円</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>    
+  </section>
+  <section id="about" class="about">
+    <div class="fixed__bg --about">
+      <h2 class="sec__ttl --about"><img src="images/about_ttl.png" alt="about"></h2>
+    </div>
+    <div class="contents__inner">
+      <h3 class="menu-category__ttl"><span class="underline">Coffeeへのこだわり</span></h3>
+      <p>Hana’s cafe では、一杯のコーヒーが日常を少し特別にしてくれると考えています。<br>豆は厳選した焙煎所から仕入れ、鮮度を大切にして丁寧に管理。<br>
+        ご注文をいただいてから挽くことで、豆本来の豊かな香りと味わいを最大限に引き出しています。</p>
+        <p>焙煎度合いや抽出方法にもこだわり、すっきりとした飲み口からコク深い一杯まで、<br>
+        その日の気分に寄り添えるように心を込めてご用意しています。</p>
+
+    
+      <div class="more-text" style="display:none;">
+      <p>「ほっとできる時間」と「また飲みたいと思える一杯」をお届けすることが、私たちの願いです。</p>  
+      <p>例えば、当店で扱う豆は季節ごとにセレクトしており、産地の特徴を感じられる一杯をお楽しみいただけます。  
+          また、ハンドドリップやフレンチプレスなど、抽出方法ごとに異なる魅力もご提案しています。  
+          コーヒーを通じて「新しい発見」や「ちょっとした贅沢な気分」を感じていただけたら嬉しいです。  
+        </p>
+      </div>
+      <button class="btn-toggle">詳しく見る</button>
+    </div>
+    
+  </section>
+  <section id="location" class="location">
+    <div class="fixed__bg --location">
+      <h2 class="sec__ttl --location"><img src="images/location_ttl.png" alt="location"></h2>
+    </div>
+    <div class="contents__inner">
+      <h3 class="menu-category__ttl"><span class="underline">Access</span></h3>
+      <div class="access__map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2259.624186430298!2d139.7027775407616!3d35.6505959654941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b44e6cacbeb%3A0x566d8bd2a5a20a2!2z44CSMTUwLTAwMzQg5p2x5Lqs6YO95riL6LC35Yy65Luj5a6Y5bGx55S6!5e0!3m2!1sja!2sjp!4v1758037016364!5m2!1sja!2sjp" width="969" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+
+</main>
+<footer id="footer" class="footer">
+<p class="address">© 2025 Hana’s cafe. All rights reserved.</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 	
+<script src="js/script.js"></script> 
+</body>
+</html>
