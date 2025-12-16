@@ -161,7 +161,7 @@ textarea {
     }
 
     section {
-        padding: 10rem 0 100rem;
+        padding: 10rem 0 50rem;
     }
 
     .container {
@@ -175,3 +175,4 @@ textarea {
     .forPC {
         display: none;
     }
+}
